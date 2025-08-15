@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="shortcut icon" href="images/favicons/HOTLOC_favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<style>
+  .background {
+    width: 100%;
+    background-color: #F3F4F6;
+  }
+  .title {
+    background-color: #DF2222;
+    display: flex;
+    justify-content: center;      /* Centers horizontally */
+    text-align: center;           /* Centers text horizontally */
+  }
+  .home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;          /* Centers vertically */
+  }
+  .form-item {
+    width: 30%;
+    display: flex;
+    padding: 15px;                /* Space around the content */
+    text-align: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;          /* Rounds the edges of the flex box */
+  }
+  .copyright {
+    display: flex;
+    font-size: 10pt;
+    justify-content: center;
+  }
+</style>
+
+<body>
+  <div class="background">
+    <div class="title">
+      <h1>Customer/Employee Login</h1> <!-- TODO: Write in logic to properly set customer/employee based on selected link. -->
+    </div>
+    <div class="home">
+        <a href="index.html">Back to Home Page.</a>
+    </div>
+
+    <div class="form-container">
+      <div class="form-item">
+        <form method="GET" action="index.html">
+          <table>
+            <tr>
+              <td>Email: </td>
+              <td><input required type="email" name="email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+              <td>Password: </td>
+              <td><input required type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button type="submit">Login</button></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>&copy; 2025 HOTLOCKER. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+
+</html>

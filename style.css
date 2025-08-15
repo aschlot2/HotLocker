@@ -1,0 +1,56 @@
+
+/* HOTLOC color scheme and fonts */
+
+:root {
+  --primary:      #C62828;
+  --secondary:    #F57C00;
+  --accent:       #FFEB3B;
+  --neutral_dark: #212121;
+  --neutral_light:#F3F4F6;
+
+  --font-title:       Impact, 'Arial Black', sans-serif;
+  --font-subtitle:    Arial, Helvetica, sans-serif;
+  --font-body:        Verdana, Tahoma, sans-serif;
+  --font-accent:      Georgia, serif;
+}
+
+/* HOTLOC flex box classes */
+
+.background {
+  width: 100%;
+  min-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neutral_light);
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-item {
+  width: 50%;
+  max-width: 400px;
+  padding: 15px;
+  text-align: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.login-title {
+  width: 100%;
+  text-align: center;
+}
+
+.copyright {
+  display: flex;
+  font-size: 10pt;
+  justify-content: center;
+}
+
